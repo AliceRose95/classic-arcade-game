@@ -1,6 +1,42 @@
-frontend-nanodegree-arcade-game
-===============================
+# Arcade Game
+### by Alice Painter
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+## Table of Contents
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+* [Installation](#installation)
+* [Description](#description)
+* [How to play](#howtoplay)
+* [Dependencies](#dependencies)
+* [Credits](#credits)
+
+## Installation
+
+[Live page](https://alicerose95.github.io/classic-arcade-game/)
+
+Clone link:
+
+`git clone https://github.com/AliceRose95/classic-arcade-game.git`
+
+Run straight from index.html
+
+## Description
+
+The player character must cross the stone tiles and successfully reach the water while avoiding the moving bugs.
+
+The game is played with keyboard input and has a 3-life score system. 3 hits from bugs result in a "You lose" modal and the opportunity to restart, whereas 3 successful trips to the water result in a "You win" modal and restart button. Sounds accompany hits and wins to alert the player.
+
+## How to play
+
+Move the character up, down, left or right using your keyboards arrow keys. Head towards the water while avoiding the moving bugs on the stone tiles. If you hit a bug, you will lose a life. Lose three lives and the game is over. Reach the water three times without losing three lives and you will win the game.
+
+## Dependencies
+
+Sound files win.wav and lose.wav are found in the included sounds folder.
+
+## Credits
+
+Initial HTML, Game engine and Style: [Udacity](https://github.com/udacity/fend-project-memory-game)
+
+Soundcloud links:
+[Lose Sound](https://freesound.org/people/thisusernameis/sounds/426888/)
+[Win sound](https://freesound.org/people/rhodesmas/sounds/380266/)
