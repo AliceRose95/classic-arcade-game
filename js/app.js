@@ -124,6 +124,7 @@ function restartGame() {
   heartThree.style.visibility="visible";
   player.x = 200;
   player.y = 400;
+  collision = 0;
   document.getElementById('loseModal').style.display = "none";
   document.getElementById('winModal').style.display = "none";
 }
